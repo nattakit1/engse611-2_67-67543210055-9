@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="tab1">Tab 1</button>
+          <button class="tab-btn" data-tab="tab2">Tab 2</button>
+
+        </div>
+        
+        <div class="tab-content">
+          <div id="tab1" class="tab-pane active">
+            <h2>Content for Tab 1</h2>
+            <!DOCTYPE html>
+<html lang="th">
+<head>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="main-image">
+            <img id="displayed-image" src="https://picsum.photos/id/10/600/400" alt="Image 1">
+        </div>
+        <div class="thumbnail-container">
+            <img class="thumbnail" src="https://picsum.photos/id/10/600/400" alt="Image 1">
+            <img class="thumbnail" src="https://picsum.photos/id/11/600/400" alt="Image 2">
+            <img class="thumbnail" src="https://picsum.photos/id/12/600/400" alt="Image 3">
+            <img class="thumbnail" src="https://picsum.photos/id/13/600/400" alt="Image 4">
+        </div>
+        <div class="dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+          </div>
+    </div>
+    <script src="script1.js"></script>
+          </div>
+
+
+          
+          <div id="tab2" class="tab-pane">
+            <h2>Content for Tab 2</h2>
+            <!DOCTYPE html>
+<html lang="th">
+<head>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>To-Do List</h1>
+        
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="เพิ่มรายการใหม่...">
+            <button id="addTask">เพิ่ม</button>
+        </div>
+
+        <ul id="todoList"></ul>
+
+        <div class="actions">
+            <button id="clearCompleted">ลบรายการที่เสร็จแล้ว</button>
+            <button id="clearAll">ลบทั้งหมด</button>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+          </div>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+</body>
+</html>
